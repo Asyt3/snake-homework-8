@@ -9,6 +9,7 @@ import javax.swing.Timer;
 
 public class Board extends JPanel implements ActionListener {
 
+    //Adds
     private final int B_WIDTH = 300;
     private final int B_HEIGHT = 300;
     private int DOT_SIZE = 10;
@@ -136,7 +137,7 @@ public class Board extends JPanel implements ActionListener {
         tail_up = uTail.getImage();
         ImageIcon dTail = new ImageIcon("src/resources/tail_down.png");
         tail_down = dTail.getImage();
-
+       
 
         ImageIcon sApple = new ImageIcon("src/resources/apple.png");
         apple = sApple.getImage();
