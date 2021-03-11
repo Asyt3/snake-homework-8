@@ -6,10 +6,10 @@ import javax.swing.JFrame;
 public class Snake extends JFrame {
 
     public Snake() {
-
         initUI();
     }
 
+    //Initializes game UI
     private void initUI() {
 
         add(new Board());
@@ -17,6 +17,7 @@ public class Snake extends JFrame {
         setResizable(false);
         pack();
 
+        //Sets game Title
         setTitle("Snake");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
