@@ -1,1 +1,1 @@
-"# snake-homework-8" 
+"Snake game for Uni homework."
